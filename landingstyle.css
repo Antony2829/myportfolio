@@ -1,0 +1,481 @@
+/* font-family: 'Montserrat', sans-serif;
+font-family: 'Satisfy', cursive; */
+
+body{
+    font-family: 'Montserrat', sans-serif;
+}
+
+/* 
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+    background-size: 5%;
+  } */
+  
+nav{
+    background-image: url("./images/wallpaper\ landing\ page.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 0 10%;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: rgba(51, 51, 51, 0.527);
+}
+
+  li {
+    float: center;
+  }
+  
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    border: 2px transparent inset;
+
+  }
+  
+  li a:hover {
+    /* background-color: #fa7268; */
+    border: 2px #fa7268 inset;
+  }
+  
+  .RectanglePortfolio {
+    /* width: auto; */
+    height: 10px;
+    border-radius: 5px;
+    /* background-color: rgba(0, 0, 0, 0.5); */
+    /* margin: 5% 5% */
+    
+  }
+
+
+  .RectangleCV {
+    /* width: auto; */
+    height: 10px;
+    border-radius: 5px;
+    /* background-color: rgba(0, 0, 0, 0.5); */
+    /* margin: 5% 0 */
+
+  }
+
+  .RectangleContact {
+    /* width: auto; */
+    height: 10px;
+    border-radius: 5px;
+    /* background-color: rgba(0, 0, 0, 0.5); */
+    /* margin: 5% 5rem 0% 0%; */
+  }
+
+  .Contact {
+    width: 83.5px;
+    height: 18px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 10px;
+    font-weight: bold;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    text-align: center;
+    color: #ffffff;
+  }
+
+
+  
+  .wallpaper-landing-page {
+    width: auto;
+    height: 500px;
+    
+}
+
+#nav-bouton{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.NavForme {
+  /* width: 46px;
+  height: 12px; */
+  font-family: 'Montserrat', sans-serif;
+  font-size: 18px;
+  font-weight: bold;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 0.7rem;
+  letter-spacing: normal;
+  color: #ffffff;
+}
+
+.Mask {
+    width: 512px;
+    height: 206px;
+    background-color: #d8d8d8;
+  }
+
+  .flexNavUn{
+    display: flex;
+    flex-direction: initial;    
+    justify-content: space-around;
+}
+
+.propos-de-moi {
+  /* width: 148.5px;
+  height: 22px; */
+  font-family: 'Montserrat', sans-serif;
+  font-size: 25px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #fa7268;
+  text-align: center;
+  margin: 5% 10% 4rem;
+}
+
+.texteApropos {
+  /* width: 437.5px;
+  height: 500px; */
+  font-family: 'Montserrat', sans-serif;
+  font-size: 18px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #313131;
+  text-align: center;
+  margin: 50px 15% 0;
+
+}
+.texteApropos-2 {
+  /* width: 437.5px;
+  height: 500px; */
+  font-family: 'Montserrat', sans-serif;
+  font-size: 18px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #313131;
+  text-align: center;
+  margin: 10px 15%;
+
+}
+
+.Liseret {
+  width: 1130px;
+  height: 0.5px;
+  border: solid 0.5px #979797;
+  margin-top: 5%;
+  margin-bottom: 3%
+}
+
+
+
+.PhotoPortfolio {
+  width: 470px;
+  height: 322px;
+  /* order: 1; */
+  margin-left: 10%;
+  opacity: 1;
+}
+
+
+.Projet-Wellness {
+  /* width: 247px;
+  height: 16px; */
+  font-family: 'Montserrat', sans-serif;
+  font-size: 20px;
+  font-weight: bold;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #FFFFFF;
+  /* order: 2; */
+  /* margin-top: 3%; */
+  text-align: left;
+  margin-left: 3%
+
+  
+}
+
+#portfolioFlex{
+  display: flex;
+  align-items: flex-start;
+
+}
+
+.textePortfolio {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 18px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #FFFFFF;
+  text-align: justify;
+  margin-top: 3%;
+  margin-left: 3%;
+  margin-right: 18%
+}
+
+/* .boutonVOIR {
+  width: auto;
+  height: auto;
+  border-radius: 5px;
+  background-color: #fa7268;
+  border: #ff8e86 solid;
+  align-self: center;
+  margin-top: 20%; */
+  /* margin-left: 0%;
+  opacity: 1;
+  z-index: -1;
+  -webkit-transition: 1s;
+ position: absolute;
+ padding: 1rem 0;
+ margin-left: 10%;
+ margin-right: 10%;
+ background-color: #fa72686c
+} */
+
+
+.boutonVOIR{
+  display: flex;
+  flex-direction: row
+}
+
+.VOIR {
+  /* width: 87.5px;
+  height: 15px; */
+  font-family: 'Montserrat', sans-serif;
+  font-size: 20px;
+  /* font-weight: 600; */
+  line-height: 1rem;
+  font-style: normal;
+  font-stretch: normal;
+  /* vertical-align: middle; */
+  letter-spacing: normal;
+  text-align: center;
+  color: #ffffff;
+  
+}
+ 
+.premierSlide {
+  padding: 0 20vw;
+  
+} 
+.carousel-control-prev-icon{
+  color: #313131
+}
+
+.bd-example{
+  margin: 0 10vw;
+  padding: 10px 0;
+  /* background-color: rgba(248, 196, 192, 0.6); */
+}
+.carousel-control-next{
+  background-color: #31313169;
+  width: 20px;
+  border-radius: 20px
+  
+}
+
+.carousel-control-prev{
+  background-color: #31313169;
+  width: 20px;
+  border-radius: 20px
+
+}
+
+.colorCaroussel{
+  color: #313131;
+
+}
+
+.backgroundCaroussel{
+  background-color: #31313171;
+  height: 40px;
+}
+
+#sous-section-portfolio1{
+  display: flex;
+  flex-direction: column;
+}
+
+#linkBtn{
+  color: #313131;
+}
+
+.card-text{
+  font-family: 'Montserrat', sans-serif;
+  text-align: center
+}
+
+#flexCard{
+  display: flex;
+  align-content: space-between;
+  margin: 0 28%;
+}
+.spacebetween{
+  margin: 0 8% 0 0
+}
+
+.card:hover{
+  background-color: #fa726857;
+
+}
+
+.card-img-top{
+  z-index: -1
+}
+
+/* #boutonBase:hover + .boutonVOIR{
+background-color: #ff8e86;
+opacity: 0;
+} */
+
+/* #boutonBase:hover +  .boutonVOIR >.PhotoPortfolio{
+opacity: 0;
+} */
+
+#boutonBase{
+margin: 15% 42%;
+/* margin-bottom: 15%; */
+font-family: 'Montserrat', sans-serif;
+font-size: 16px;
+padding: 15px 32px;
+color: #313131;
+border: #ff8e86 solid;
+border-radius: 10px;
+/* align-items: center */
+/* box-shadow: 2px 2px 2px rgba(46, 46, 49, 0.411); */
+}
+
+#boutonBase:hover{
+  opacity: 0;
+  margin-top: 15%;
+  transition-duration: 0.5s;
+
+}
+
+
+
+#PhotoMail{
+  width: 50px;
+  height: 50px;
+   margin-left: 200%;
+  margin-top: 140%;
+
+}
+
+#flexMail{
+  display: flex;
+  align-content: center;
+}
+
+#medium{
+  font-family: 'Montserrat', sans-serif;
+  font-size: 18px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #313131;
+  text-align: center;
+  margin-top: 5%;
+  /* margin-left: 0% */
+  
+}
+
+#PhotoMedium{
+  width: 50px;
+  height: 41px;
+  margin-left: 37%;
+  margin-top: 4.8%;
+
+}
+
+#flexMedium{
+  display: flex;
+  align-content: center;
+}
+
+#PhotoLinkedin{
+  width: 50px;
+  height: 41px;
+  margin-left: 15%;
+  margin-top: 4.5%;
+  margin-bottom: 2%
+
+}
+
+@keyframes tipsy {
+  0% {
+    transform: translateX(-50%) translateY(-50%) rotate(0deg);
+  }
+  
+  100% {
+    transform: translateX(-50%) translateY(-50%) rotate(360deg);
+  }
+}
+
+body {
+  font-family: 'Satisfy', cursive;
+    /* background-color: #2e2e31; */
+}
+
+#helloAnimation {
+  color: #fffbf1;
+  text-shadow: 0 20px 25px #2e2e31, 0 40px 60px #2e2e31;
+  font-size: 80px;
+  font-weight: bold;
+  text-decoration: none;
+  letter-spacing: -3px;
+  margin: 0;
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  transform: translateX(-50%) translateY(-50%);
+}
+
+#helloAnimation:before,
+#helloAnimation:after {
+  content: '';
+  padding: .9em .4em;
+  position: absolute;
+  left: 50%;
+  width: 100%;
+  top: 50%;
+  display: block;
+  border: 15px solid red;
+  transform: translateX(-50%) translateY(-50%) rotate(0deg);
+  animation: 10s infinite alternate ease-in-out tipsy;
+}
+
+#helloAnimation:before {
+  border-color: #fa7268 #d9524a rgba(0, 0, 0, 0) rgba(0, 0, 0, 0);
+  z-index: -1;
+}
+
+#helloAnimation:after {
+  border-color: rgba(0, 0, 0, 0) rgba(0, 0, 0, 0) #fa7268 #d9524a;
+  box-shadow: 20px 20px 20px rgba(46, 46, 49, .8);
+}
+
+
